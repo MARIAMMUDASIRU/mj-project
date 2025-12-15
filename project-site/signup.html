@@ -34,7 +34,12 @@
           </div>
           <div>
             <label for="picture">Profile Picture</label>
-            <input type="file" name="picture" id="picture" />
+            <input
+              type="file"
+              name="picture"
+              id="picture"
+              accept="image/png, image/jpeg"
+            />
           </div>
           <div>
             <label for="address">Address Information</label>
@@ -48,7 +53,7 @@
           </div>
           <div>
             <label for="age">Age</label>
-            <input type="number" name="age" id="age" />
+            <input type="number" name="age" id="age" min="15" max="30" />
           </div>
           <div>
             <label for="email">Email</label>
